@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:#fac20a;
+    width: 100%;
+    height: 500px;
+    padding-top: 15px;
+}
+
+nav{
+    background-color: black;
+    min-width: 1200px;
+    max-width: 1400px;
+    height: 125px;
+    margin: 0px auto 0 auto;
+    border-radius: 5px;
+}
+nav #logo{
+    margin: 25px;
+    float: left;
+}
+nav #logo img{
+    height: 75px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 55px 10px 10px 20px;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+
+    
+}
+nav ul li a{
+    text-decoration: line-through;
+    list-style: none;
+    color: white;
+
+}
+span{
+    color: rgb(228, 228, 228);
+    font-size: 12px;
+}
+
+#menu_principal {
+    float: right;
+}
+#menu_principal li span{
+    font-family: Montserrat, sans-serif;
+    font-size: 11px;
+    color: rgb(134, 134, 134);
+    margin-right: 3px;
+    margin-top: 5px;
+}
+#menu_principal li a{
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+/*---------------------------------------- Parallelo 2 -----------------------------------------*/
+
+#copia{
+    background-color: rgb(255, 255, 255);
+
+}
