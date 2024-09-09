@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../imagens/imagemheliponto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 720px;
+    padding-top: 15px;
+}
+
+nav{
+    min-width: 1200px;
+    max-width: 1400px;
+    height: 125px;
+    background-color: black;
+    margin: 0 auto 0 auto;
+}
+nav #logo{
+    margin: 23px;
+    float: left;
+}
+nav #logo img{
+   height: 75px; 
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    color:white;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    list-style: none;
+    
+}
+nav ul li a{
+    padding: 55px 20px 55px 0;
+    float: left;
+}
+nav #menu_principal{
+    float: right;
+}
+#menu_principal li span{
+    font-family: Montesserrat, sans-serif;
+    font-size: 11px;
+    color: rgb(134, 134, 134);
+    margin-right: 3px;
+    margin-top: 60px;
+    float: left;
+}
+
+#menu_principal li a{
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase; /*transforma todos os textos em letra maiúscula*/
+    text-decoration: none;
+    transition: 1s;
+}
+
+#menu_principal li a:hover{
+    color: #e7a520;
+    transition: 1s;
+    text-decoration: line-through;
+}
+.regua{
+    background-image: url(../imagens/divider-dark.png);
+    background-repeat: repeat-x;
+    padding-top: 100px;
+}
+    .icons{
+    height: 120px;
+    width: 345px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    }
+   
+    .icons .icon img{
+        width: 115px;
+    }
+
+
+    /*sem internet*/
+
+    .txt{
+  
+    height: 850px;
+    margin: 0 auto;
+    height: 100px;
+    width: 100%;
+    }
+
+    .txt h6{
+        font-size: 28px;
+        font-weight: 300;
+        width: 80%;
+        display: inline-block;
+        line-height: 40px;
+        font-family: 'Roboto Slab', serif; /*MUDAR A FONTE DO GOOGLE FONTES*/
+        text-align: center;
+        margin: 40px 0 0 160px;
+    }
+    
+    .trabalhos{
+        height: 200px;
+        width: 100%;
+    }
+    .cabecalho{
+        min-width: 1200px;
+        max-width: 1400px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .trabalhos .cabecalho h4{
+        margin: 0;
+        margin-top: 60px;
+        color: #e7a520;
+        text-transform: uppercase;
+        letter-spacing: 11px;
+        font-weight: 300;
+        font-size: 24px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+    }
+    .trabalhos .cabecalho h2{
+        text-align: center;
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 90px;
+        margin: 0;
+        text-transform: uppercase;
+
+    }
+    .cabecalho img{
+        width: 70px;
+        margin: 0;
+        margin-top: 15px;
+    }
+    .trabalhos .cabecalho p{
+        text-align: center;
+        font-family: 'Montserrat' 'sans-serif';
+        font-size: 25px;
+        margin: 0;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        font-style: italic;
+
+    }
+    .trabalhos .mosaico{
+        min-width: 1200px;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    .trabalhos .mosaico .item{
+        height: 470px;
+        width: 570px;
+        background-image: url(../imagens/imagemheliponto.jpg);
+        background-size: contain;
+        background-position: center;
+    }
+    .trabalhos .mosaico .item:hover{
+        background-size: 110%;
+        background-position: center;
+    }
+/*----------------------------------------TRABALHOS----------------------------------------*/
+#paralello2{
+    background-color: blue;
+}
